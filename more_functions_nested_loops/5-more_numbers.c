@@ -3,7 +3,7 @@
 /**
  *more_numbers - prints 10 times 0 to 9
  *
- *Return:numbers 
+ *Return:numbers
  *
  */
 
