@@ -1,0 +1,13 @@
+#include "main.h"
+
+/**
+ *mul -multiplie des entiers
+ *@a: premier entier
+ *@b: deuxieme entier
+ *Return:le resulta de a*b
+ */
+
+int mul(int a, int b)
+{
+return (a * b);
+}

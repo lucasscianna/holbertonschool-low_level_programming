@@ -1,10 +1,10 @@
 #include "main.h"
 
  /**
- * _isupper -Verifie si le caractere est en majuscule.
- * Description: cette fonction verifie si c est en majuscule
+ *_isupper -Verifie si le caractere est en majuscule.
+ *_isuper - Verifie si c est en majuscule
  *
- *
+ *@c est le carctere a tester.
  *Return: 1 si c est une majuscule, sinon 0.
  */
 
