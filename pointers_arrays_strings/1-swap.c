@@ -11,8 +11,10 @@
 
 void swap_int(int *a, int *b)
 {
-char *a = 98;
-char *b = 42;
 
-swap_int(int *a, int *b);
+int tmp = *a;
+
+*a = *b;
+*b = tmp;
+
 }
