@@ -1,0 +1,18 @@
+#include "main.h"
+
+/**
+ *swap_int - switch the value of 2 int
+ *
+ *@a: is a int
+ *
+ *@b:is a int
+ *
+ */
+
+void swap_int(int *a, int *b)
+{
+char a == 98;
+char b == 42;
+
+swap_int(int *a, int *b);
+}
