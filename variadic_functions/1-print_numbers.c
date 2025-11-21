@@ -1,18 +1,16 @@
-#include <stdarg.h>
-#include <stdio.h>
+#include "variadic_functions.h"
 /**
-* print_numbers - prints numbers separated by a string
-* @separator: string to print between integers
-* @n: number of integers passed
-* Return: Nothing
+* print_numbers - Prints numbers separated by a string.
+* @separator: String to print between integers.
+* @n: Number of integers passed.
+*
+* Description: Prints numbers separated by a string.
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	unsigned int i, num = 0;
+	unsigned int i;
+	int num = 0;
 	va_list count;
-
-	if (n == 0)
-		printf("\n");
 
 	va_start(count, n);
 
@@ -24,6 +22,5 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 	}
 	printf("\n");
-
 	va_end(count);
 }
