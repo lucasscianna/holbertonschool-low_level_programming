@@ -1,0 +1,23 @@
+#ifndef list_h
+#define list_h
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+
+/**
+ * struct list_s - Linked list
+ * @str: String.
+ * @len: Length of the string.
+ * @next: Points to the next node.
+ */
+typedef struct list_s
+{
+	char *str;
+	unsigned int len;
+	struct list_s *next;
+} list_t;
+
+size_t print_list(const list_t *h);
+
+#endif
